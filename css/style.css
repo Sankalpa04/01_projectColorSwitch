@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    margin: 0px 50px 0px 50px;
+}
+
+.header{
+    background-color: black;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 !important ;   
+}
+
+.header ul{
+    margin: auto;
+    list-style-type: none;
+    display: inline-flex;
+}
+.header ul li a{
+    display: inline-block;
+    padding: 10px 50px 10px 50px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    background-color: orange;
+}
+
+
+.section{
+    text-align: center;
+    height: 500px
+}
+
+.button{
+    border: 2px solid black;
+    border-radius: 7px; 
+    padding: 15px 32px;
+}
+
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
